@@ -5,11 +5,11 @@ internal class Program
     static void Main(string[] args)
     {
         // Accessing the Singleton instance
-        Singleton instance1 = Singleton.Instance;
+        var instance1 = Singleton.Instance;
         instance1.ShowMessage();
 
         // Accessing the Singleton instance again
-        Singleton instance2 = Singleton.Instance;
+        var instance2 = Singleton.Instance;
         instance2.ShowMessage();
 
         // Checking if both instances are the same
