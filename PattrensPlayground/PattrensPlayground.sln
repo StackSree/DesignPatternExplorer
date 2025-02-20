@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPatternComposition",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Behavioural\Iterator\Iterator.csproj", "{64F48F12-F880-476D-B9F3-EE7D86198237}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Behavioural\Memento\Memento.csproj", "{44E26724-EACC-453D-ABF9-8F89CD7C825D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{64F48F12-F880-476D-B9F3-EE7D86198237}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64F48F12-F880-476D-B9F3-EE7D86198237}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64F48F12-F880-476D-B9F3-EE7D86198237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44E26724-EACC-453D-ABF9-8F89CD7C825D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44E26724-EACC-453D-ABF9-8F89CD7C825D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44E26724-EACC-453D-ABF9-8F89CD7C825D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44E26724-EACC-453D-ABF9-8F89CD7C825D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +75,7 @@ Global
 		{B8179CFC-4C64-46C5-887D-40F7B62FB713} = {801BF97C-F92E-4403-97FD-F16DB74AA0AC}
 		{C873BC65-BB6A-4599-AAD2-77361B945700} = {801BF97C-F92E-4403-97FD-F16DB74AA0AC}
 		{64F48F12-F880-476D-B9F3-EE7D86198237} = {44AD89C4-D31A-448B-9B56-40EC414BA0E7}
+		{44E26724-EACC-453D-ABF9-8F89CD7C825D} = {44AD89C4-D31A-448B-9B56-40EC414BA0E7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {818184A3-4E70-4474-BAF7-9CA18E4A3EDE}
